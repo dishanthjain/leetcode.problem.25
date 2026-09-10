@@ -1,0 +1,21 @@
+LeetCode #25 — Reverse Nodes in k-Group
+
+Difficulty: Hard
+Language: C++
+
+Problem:
+Given the head of a linked list and an integer k, reverse the nodes k at a time and return the modified list.
+
+If the number of remaining nodes is less than k, leave those nodes unchanged. You may only change the links between nodes, not their values.
+
+Examples:
+
+Input:  head = [1,2,3,4,5], k = 2
+Output: [2,1,4,3,5]
+Input:  head = [1,2,3,4,5], k = 3
+Output: [3,2,1,4,5]
+
+Constraints:
+
+1 <= k <= n <= 5000
+0 <= Node.val <= 1000
